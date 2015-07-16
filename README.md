@@ -2,4 +2,4 @@
 Provides a table component for Vaadin Framework based on an improve BeanItemContainer&lt;T> with awesome posibilities.
 
 
-- Includes SearchableBeanItemContainer<T> which provides a search API.
+- Includes SearchableBeanItemContainer&ltT> which provides a search API.
