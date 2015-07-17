@@ -1,6 +1,8 @@
 
 package es.jaranda.vaadinextensions.ui;
 
+import com.vaadin.ui.Table;
+
 /*
  * Not tested
  * Note: This implementation is EXPERIMENTAL until this comment will be
