@@ -98,11 +98,20 @@ public class SearchableBeanItemContainer<BEANTYPE>
 		return searchPatrol;
 	}
 
+    /**
+     * Set the search patrol to filter searchableProperties
+     *
+     * @param searchPatrol Search patrol to filter searchableProperties
+     */
 	public void setSearchPatrol(String searchPatrol) {
 		this.searchPatrol = searchPatrol;
 		updateSearchFilter();
 	}
 
+    /**
+      * Returns the search patrol to filter searchableProperties
+      * @return the search patrol to filter searchableProperties
+      */
 	public Object[] getSearchableProperties() {
 		return searchableProperties;
 	}
