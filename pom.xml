@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>es.jaranda.vaadin-extensions</groupId>
+    <artifactId>vaadin-typed-table-root</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>Vaadin TypedTable&lt;T> Extension - Root Project</name>
+    
+    <description>POM Provides a table component for Vaadin Framework 
+                 based on an improve BeanItemContainer&lt;T> with 
+                 awesome posibilities. This Root Project contains
+                 the "core" module and "demo" module/es.
+    </description>
+
+    <modules>
+        <module>vaadin-typed-table</module>
+    </modules>
+</project>
